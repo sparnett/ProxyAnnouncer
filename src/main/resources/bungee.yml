@@ -1,0 +1,3 @@
+name: ProxyAnnouncer
+version: '${project.version}'
+main: org.sparnet.proxyannouncer.ProxyAnnouncer
