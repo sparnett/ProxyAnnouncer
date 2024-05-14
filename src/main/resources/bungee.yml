@@ -1,3 +1,12 @@
 name: ProxyAnnouncer
-version: '${project.version}'
+version: 1.0
 main: org.sparnet.proxyannouncer.ProxyAnnouncer
+author: TuoNome
+description: Un semplice plugin per annunciare messaggi a tutti i server collegati in BungeeCord.
+
+commands:
+  annuncio:
+    description: Invia un messaggio a tutti i server collegati.
+    permission: admin.annuncio
+
+api-version: '1.20'
